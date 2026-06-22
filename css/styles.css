@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: rgb(226, 226, 220);
     font-family: Arial, sans-serif;
     color: black;
 }
@@ -9,7 +9,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: beige;
+    background-color: rgb(191, 0, 255);
     gap: 20px;
 }
 
@@ -43,7 +43,7 @@ body{
 }
 
 .nav a:hover {
-    background-color: blue;
+    background-color: magenta;
     color: black;
     transition: 0.3s;
 }
@@ -78,7 +78,7 @@ body{
     .nav{
         display: none;
         flex-direction: column;
-        background: #4A76FF;
+        background:#4A76FF;
         padding: 10px;
     }
     .nav.active {
