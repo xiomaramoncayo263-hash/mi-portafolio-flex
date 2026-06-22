@@ -1,35 +1,112 @@
 body{
-    background-color: azure;
-    font-family: sans-serif;
-    margin: 0;
-}
-
-h1{
-    color: red;
-}
-a {
+    background-color: bisque;
+    font-family: Arial, sans-serif;
     color: black;
-    text-decoration: black;
 }
 
-header{
-    background-color: #4A76FF;
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
+    background-color: beige;
+    gap: 20px;
 }
 
-.logo{
+.logo {
     display: flex;
-}
-.logo img {
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
-nav a {
-    font-weight: 100;
-    padding-right: 20px;
+.icon-logo {
+    width: 45px;
+    height: 45px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    background-color: blueviolet;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.nav a:hover {
+    background-color: blue;
+    color: black;
+    transition: 0.3s;
+}
+
+.menu-btn {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.avatar {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-texto {
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .nav{
+        display: none;
+        flex-direction: column;
+        background: #4A76FF;
+        padding: 10px;
+    }
+    .nav.active {
+        display: flex;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .avatar {
+        width: 150px;
+    }
+    .redes a {
+        color: aquamarine;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .redes a:visited {
+        color: fuchsia;
+    }
+    .redes a:hover {
+        color: black;
+        background-color: green;
+        border-radius: 4px;
+        padding: 2px 6px;
+        transition: 0.3s;
+    }
 }
