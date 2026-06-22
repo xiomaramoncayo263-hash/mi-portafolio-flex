@@ -1,31 +1,31 @@
 # Mi Portafolio Flex
 
 ## Descripción del proyecto
-Este proyecto es un **portafolio personal** desarrollado como parte del programa **Análisis y Desarrollo de Software (ADSO)** del SENA.  
-El objetivo es aplicar el modelo **CSS Flexbox** para maquetar una página web moderna, adaptable y completamente responsive, sin usar frameworks ni floats.
+Este proyecto es **mi portafolio personal** que tiene como objetivo aplicar el modelo **CSS Flexbox** para maquetar una página web moderna, adaptable y completamente responsive, sin usar frameworks ni floats.
 
 ---
 
-## Tecnologías utilizadas
-- **HTML5** → estructura semántica del sitio.  
-- **CSS3 (Flexbox)** → diseño flexible y responsive.  
-- **JavaScript (DOM)** → interactividad del menú hamburguesa.  
-- **Git y GitHub** → control de versiones y publicación del proyecto.
+## Herraminetas de desarrollo utilizadas
+Apliqué las siguientes herramientas de desarrollo para el desarrollo de mi portafolio:
+- **HTML5** → con esta creé la estructura semántica del sitio.  
+- **CSS3 (Flexbox)** → con esta realice el diseño flexible y responsivo del sitio.  
+- **JavaScript (DOM)** → esta es la interactividad del menú hamburguesa.  
+- **GitHub** → la usé pra la publicación del proyecto.
 
 ---
 
 ## Estructura del proyecto
 mi-portafolio-flex/
--index.html (Página principal)
--css/ estilos.css (Estilos y layout con Flexbox)
--js/ app.js (Lógica del menú interactivo)
--img/ (Imágenes del portafolio)
--README.md (Documentación del proyecto)
+- index.html (Página principal)
+- css/ estilos.css (Estilos y layout con Flexbox)
+- js/ app.js (Lógica del menú interactivo)
+- img/ (Imágenes del portafolio)
+- README.md (Documentación del proyecto)
 
 ---
 
 ## Características principales
-- Diseño **responsive** con media queries para pantallas móviles.  
+- Diseño **responsivo** con media queries para pantallas móviles.  
 - Maquetación con **Flexbox** en todas las secciones (header, hero, sobre mí, habilidades, footer).  
 - Menú **hamburguesa** funcional mediante JavaScript.  
 - Estilo personalizado con colores suaves y tipografía legible.  
@@ -34,23 +34,15 @@ mi-portafolio-flex/
 ---
 
 ## Secciones del sitio
-| Sección | Descripción |
-|----------|--------------|
-| **Header** | Logo, nombre y navegación principal. |
-| **Hero** | Presentación personal con foto y texto. |
-| **Sobre mí** | Información personal y formación académica. |
-| **Habilidades** | Lista de competencias técnicas. |
-| **Footer** | Enlaces de contacto y créditos. |
+
+- **Header** se usa para la organización del logo, nombre y navegación principal. 
+- **Hero** ayuda con la presentación personal con foto y texto. 
+- **Sobre mí** es el apartado donde doy mi información personal en el ambito académico. |
+- **Habilidades** es la lista de competencias técnicas. |
+- **Footer** se ubican los enlaces de contacto y créditos. |
 
 ---
 
 ## Funcionalidad JavaScript
-El archivo `app.js` activa el menú hamburguesa:
-```js
-const menuBtn = document.getElementById("menuBtn");
-const menu = document.getElementById("menu");
-
-menuBtn.addEventListener("click", () => {
-  menu.classList.toggle("active");
-});
+El archivo `app.js` activa el menú hamburguesa que se usa para darle interactividad al portafolio.
 
